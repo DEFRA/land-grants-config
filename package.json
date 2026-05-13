@@ -1,6 +1,6 @@
 {
   "name": "land-grants-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Config for land grants",
   "engines": {
     "node": ">=24"
