@@ -1,0 +1,13 @@
+branch="$(git symbolic-ref --short HEAD)"
+currentUser="$(git config user.name)"
+
+if [ "$currentUser" != "github-actions[bot]" ]; then
+    if [ "$branch" = "main" ]; then
+      echo "❌ Pushing to main is not allowed!"
+      exit 1
+    fi
+
+    if git diff --name-only origin/HEAD...HEAD -- land-grants | grep -q .; then
+        compgen -G ".changeset/*-*-*.md" || (echo ❌ Make sure you have added a changeset file, run: npm run version && exit 1)
+    fi
+fi
