@@ -1,0 +1,50 @@
+{
+  "name": "land-grants-config",
+  "version": "0.0.0",
+  "description": "Config for land grants",
+  "engines": {
+    "node": ">=24"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEFRA/land-grants-config.git"
+  },
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "github:release": "npx cdp-github-release land-grants-config",
+    "version:changed": "changeset version",
+    "version": "changeset"
+  },
+  "author": "Defra Future-Grants-Framework Team",
+  "license": "OGL-UK-3.0",
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.1",
+    "@changesets/cli": "2.29.6",
+    "husky": "9.1.7"
+  },
+  "release-it": {
+    "npm": {
+      "publish": false
+    },
+    "github": {
+      "release": true,
+      "releaseName": "${version}",
+      "releaseNotes": "echo ''"
+    },
+    "git": {
+      "commitMessage": "Tagged land-grants-config ${version}",
+      "tagName": "${version}",
+      "requireCleanWorkingDir": false,
+      "commitArgs": [
+        "--no-verify"
+      ]
+    }
+  },
+  "bin": {
+    "cdp-github-release": "ci/release-it.sh"
+  }
+}
