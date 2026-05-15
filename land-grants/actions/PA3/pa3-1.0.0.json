@@ -20,16 +20,8 @@
   ],
   "applicationUnitOfMeasurement": "ha",
   "durationYears": 10,
-  "landCoverClassCodes": [],
   "startDate": "2025-01-01",
-  "lastUpdated": "2026-05-08T11:25:06.578Z",
-  "version": 1,
-  "majorVersion": 1,
-  "minorVersion": 0,
-  "patchVersion": 0,
   "semanticVersion": "1.0.0",
-  "groupId": null,
-  "groupName": null,
   "displayOrder": 0,
   "paymentMethod": {
     "name": "wmp-calculation",
@@ -55,7 +47,6 @@
         }
       ],
       "newWoodlandMaxPercent": 20
-    },
-    "version": "1.0.0"
+    }
   }
 }
