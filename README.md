@@ -23,7 +23,7 @@ to release a hotfix for an older version, follow the change below [Making change
    - Repeat steps 1-5 for further changes to include in the next version
 7. Merge this pull request to apply version and publish tag.
 
-## Making changes for a hotfix
+## Making changes for a hotfixE
 
 You may want to release a hotfix to a specific version of a grant. E.g to release v2.2.4 when v3.0.0 already exists.
 1. Create the hotfix/release branch from the tag version you want to build upon
