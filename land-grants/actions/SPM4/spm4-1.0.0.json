@@ -1,0 +1,24 @@
+{
+    "code": "SPM4",
+    "description": "Keep native breeds on extensively managed habitats supplement (50-80%)",
+    "payment": {
+        "ratePerUnitGbp": 7,
+        "ratePerAgreementPerYearGbp": 0
+    },
+    "rules": [],
+    "applicationUnitOfMeasurement": "ha",
+    "durationYears": 3,
+    "startDate": "2025-01-01",
+    "semanticVersion": "1.0.0",
+    "displayOrder": 0,
+    "paymentMethod": {
+        "name": "default-calculation",
+        "config": {
+            "ratePerUnitGbp": 7,
+            "ratePerAgreementPerYearGbp": 0
+        },
+        "version": "1.0.0"
+    },
+    "enabled": true,
+    "display": false
+}
