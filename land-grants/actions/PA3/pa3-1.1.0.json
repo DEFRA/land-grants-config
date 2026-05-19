@@ -1,7 +1,7 @@
 {
   "code": "PA3",
   "description": "Woodland management plan",
-  "enabled": false,
+  "enabled": true,
   "display": false,
   "payment": null,
   "rules": [
@@ -19,9 +19,9 @@
     }
   ],
   "applicationUnitOfMeasurement": "ha",
-  "durationYears": 10,
+  "durationYears": 3,
   "startDate": "2025-01-01",
-  "semanticVersion": "1.0.0",
+  "semanticVersion": "1.1.0",
   "displayOrder": 0,
   "paymentMethod": {
     "name": "wmp-calculation",
