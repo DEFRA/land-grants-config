@@ -1,5 +1,15 @@
 # land-grants-config
 
+## 0.1.0
+
+### Minor Changes
+
+- 2db2aa1: Change the duration of PA3 from 10 to 3 years
+
+### Patch Changes
+
+- 855c9cd: add land-grants-api action codes
+
 ## 0.0.2
 
 ### Patch Changes
