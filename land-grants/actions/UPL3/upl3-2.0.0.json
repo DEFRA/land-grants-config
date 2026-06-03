@@ -43,5 +43,6 @@
         }
     },
     "enabled": true,
-    "display": true
+    "display": true,
+    "groupId": 2
 }

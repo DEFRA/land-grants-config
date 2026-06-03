@@ -32,5 +32,6 @@
         "version": "1.0.0"
     },
     "enabled": true,
-    "display": true
+    "display": true,
+    "groupId": 4
 }
