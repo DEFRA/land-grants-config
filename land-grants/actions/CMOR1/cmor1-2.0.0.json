@@ -46,7 +46,5 @@
     },
     "enabled": true,
     "display": true,
-    "sssiEligible": true,
-    "hfEligible": true,
     "groupId": 1
 }

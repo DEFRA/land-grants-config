@@ -33,7 +33,5 @@
     },
     "enabled": true,
     "display": true,
-    "sssiEligible": false,
-    "hfEligible": false,
     "groupId": 4
 }
