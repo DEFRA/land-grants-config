@@ -33,5 +33,7 @@
         }
     },
     "enabled": true,
-    "display": true
+    "display": true,
+    "sssiEligible": true,
+    "hfEligible": true
 }
