@@ -1,5 +1,11 @@
 # land-grants-config
 
+## 0.1.1
+
+### Patch Changes
+
+- f1c49da: add SSSI and HF properties
+
 ## 0.1.0
 
 ### Minor Changes
