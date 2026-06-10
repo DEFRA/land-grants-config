@@ -2,6 +2,12 @@
 
 Config for land grants actions etc
 
+> ⚠️ This repository is no longer actively used or maintained.
+>
+> Please use **[grants-config-land-grants](https://github.com/DEFRA/grants-config-land-grants#grants-config-land-grants)** going forward.
+>
+> Future development, bug fixes, and documentation updates will be made in the new repository.
+
 ## Usage
 
 Add any config below a specific top level directory which indicates the grouping. Inside
