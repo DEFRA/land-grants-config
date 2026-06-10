@@ -1,5 +1,11 @@
 # land-grants-config
 
+## 0.1.2
+
+### Patch Changes
+
+- a748588: Add test action config and bump version of existing action
+
 ## 0.1.1
 
 ### Patch Changes
